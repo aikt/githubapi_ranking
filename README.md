@@ -52,8 +52,6 @@ github_rankings
     |   configHeaders.js
 └───routes
     |   index.js
-└───services
-    |   mongoose.js
 └───src
     └───rankings
         |   routes.js
