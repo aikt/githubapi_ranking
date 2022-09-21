@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  boletia_web:
+    build:
+      context: .
+    image: githubranking
+    container_name: nodejs_container_githubranking
+    env_file: .env
+    restart: always
+    ports:
+      - "5001:5000"
+    volumes:
+      - .:/usr/app
+      - /usr/app/node_modules
